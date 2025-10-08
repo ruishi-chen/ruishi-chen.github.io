@@ -1,152 +1,300 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Ruishi Chen",
+    "email": "ruishich@stanford.edu",
+    "phone": "(470)776-8656",
+    "website": "https://ruishichen.github.io",
+    "summary": "PhD Student in Education Data Science at Stanford University, specializing in Social Network Methods, Natural Language Processing, Machine Learning, and Computer Vision",
     "location": {
       "address": "",
-      "postalCode": "",
-      "city": "Earth",
+      "postalCode": "94305",
+      "city": "Stanford",
       "countryCode": "US",
-      "region": ""
+      "region": "CA"
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "username": "grMvsooAAAAJ",
+        "url": "https://scholar.google.com/citations?user=grMvsooAAAAJ&hl=en"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "RuishiCh-git",
+        "url": "https://github.com/RuishiCh-git"
       }
     ]
   },
-  "work": [],
-  "education": [
+  "work": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
-      "gpa": null,
-      "courses": []
+      "company": "EduNLP Lab, Stanford University",
+      "position": "Graduate Researcher",
+      "website": "",
+      "startDate": "2024-07-01",
+      "endDate": "Present",
+      "summary": "PI: Professor Dorottya Demszky",
+      "highlights": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
+      "company": "MIMIR Knowledge Creation Lab, Stanford University",
+      "position": "Graduate Researcher",
+      "website": "",
+      "startDate": "2023-09-01",
+      "endDate": "Present",
+      "summary": "PI: Professor Daniel A. McFarland",
+      "highlights": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
-      "courses": []
+      "company": "DISTAL Lab, Stanford University",
+      "position": "Graduate Researcher",
+      "website": "",
+      "startDate": "2023-09-01",
+      "endDate": "Present",
+      "summary": "PI: Professor Victor R. Lee",
+      "highlights": []
+    },
+    {
+      "company": "Brain Development & Education Lab, Stanford University",
+      "position": "Graduate Researcher",
+      "website": "",
+      "startDate": "2023-09-01",
+      "endDate": "2024-04-01",
+      "summary": "PI: Professor Jason Yeatman",
+      "highlights": []
+    },
+    {
+      "company": "Harvard China Education Symposium",
+      "position": "Head of Secretary & Panel Director",
+      "website": "",
+      "startDate": "2021-11-01",
+      "endDate": "2023-11-01",
+      "summary": "Boston, MA",
+      "highlights": [
+        "Recruited and led a diverse team of 42 panelists and 65 volunteers located in 10 different countries",
+        "Created Objective Key Results to establish a management system across six departments",
+        "Hosted Education Equity Panel and launched initiative to provide vocational education to 150 students"
+      ]
+    },
+    {
+      "company": "Shanghai Victor Education Technology Co., Ltd.",
+      "position": "Product Manager & Curriculum Developer",
+      "website": "",
+      "startDate": "2020-10-01",
+      "endDate": "Present",
+      "summary": "Remote",
+      "highlights": [
+        "Designed online curricula for Chinese teenagers' skill development",
+        "Assisted 3 students with college major selection; helped 2 students enroll in dream programs"
+      ]
+    },
+    {
+      "company": "Origin Youth",
+      "position": "Co-Founder and Project Leader",
+      "website": "",
+      "startDate": "2016-12-01",
+      "endDate": "Present",
+      "summary": "Shanghai, China",
+      "highlights": [
+        "Recruited 600 volunteers for pen-pal program between urban college and rural primary students",
+        "Established strategic partnerships between non-profits and rural schools",
+        "Raised funds for educational infrastructure improvements including multimedia systems"
+      ]
+    },
+    {
+      "company": "Woodruff Health Educators Academy (WHEA), Emory University",
+      "position": "Research Analyst",
+      "website": "",
+      "startDate": "2022-05-01",
+      "endDate": "2022-09-01",
+      "summary": "Atlanta, GA",
+      "highlights": [
+        "Designed survey and interview protocols for mix-method research",
+        "Analyzed survey data and interview transcripts for program quality evaluation"
+      ]
     }
   ],
-  "skills": [],
-  "languages": [],
-  "interests": [],
+  "education": [
+    {
+      "institution": "Stanford University",
+      "area": "Education Data Science",
+      "studyType": "Master of Science",
+      "startDate": "2023-09-01",
+      "endDate": "2025-06-01",
+      "gpa": "4.10/4.00",
+      "courses": [
+        "Social Network Methods",
+        "Natural Language Processing", 
+        "Machine Learning",
+        "Computer Vision"
+      ]
+    },
+    {
+      "institution": "Emory University",
+      "area": "Applied Mathematics and Statistics | Sociology",
+      "studyType": "Bachelor of Science",
+      "startDate": "2019-08-01",
+      "endDate": "2023-05-01",
+      "gpa": "4.0/4.0",
+      "courses": [
+        "Charles E. Shepard Scholarship",
+        "Summa Cum Laude",
+        "Phi Beta Kappa",
+        "100 Senior Honorary"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming",
+      "level": "Advanced",
+      "keywords": [
+        "Python",
+        "R", 
+        "MATLAB",
+        "JavaScript",
+        "HTML",
+        "C++"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "level": "Advanced", 
+      "keywords": [
+        "PyTorch",
+        "sklearn",
+        "Classification",
+        "Transformer",
+        "Fine-tuning",
+        "RLHF",
+        "RAG",
+        "API Deployment"
+      ]
+    },
+    {
+      "name": "Natural Language Processing",
+      "level": "Advanced",
+      "keywords": [
+        "NLTK",
+        "spaCy", 
+        "TextBlob",
+        "BERT/RoBERTa",
+        "Prompt Engineering"
+      ]
+    },
+    {
+      "name": "Database/Platforms",
+      "level": "Intermediate",
+      "keywords": [
+        "MySQL",
+        "AWS",
+        "Google Cloud"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Mandarin",
+      "fluency": "Native"
+    },
+    {
+      "language": "English", 
+      "fluency": "Fluent"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Research",
+      "keywords": [
+        "Social Network Methods with NLP",
+        "Information Diffusion in Education",
+        "AI in Educational Technology",
+        "Educational Data Science"
+      ]
+    }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "http://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Cheating after a full academic year with Generative AI Chatbots: A Follow-up study on initial student cheating behaviors",
+      "publisher": "Manuscript Submitted",
+      "releaseDate": "2024-01-01",
+      "website": "",
+      "summary": "Chen, R., Lee, V. R., Kuo, A., Pope, D., & Miles, S. (2024)"
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "http://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "A Cross-Sectional Look at Teacher Reactions, Worries, and Professional Development Needs Related to Generative AI in an Urban School District",
+      "publisher": "Education and Information Technologies (in press)",
+      "releaseDate": "2025-01-01", 
+      "website": "",
+      "summary": "Chen, R., Lee, V. R., & Lee, M. (in press)"
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Adolescent cheating with generative AI after a full-academic year: A status check",
+      "publisher": "Society for Research in Child Development 2025 Biennial Meeting",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": "Lee, V. R., Chen, R., Kuo, A. C., & Pope, D. (2025)"
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "http://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Middle School Students' Attitude and Self-efficacy Changes Towards Data and English Language Arts Following Instructional Integration",
+      "publisher": "Data Science Education Conference 2025",
+      "releaseDate": "2025-01-01",
+      "website": "",
+      "summary": "Lee, V. R., Chen, R., Levine, S., & Demszky, D. (2025)"
+    },
+    {
+      "name": "Can Students Step Up Their Mathematical Learning through Movement? A Course Evaluation for Move Your Math",
+      "publisher": "Emory Thesis and Dissertation",
+      "releaseDate": "2023-01-01",
+      "website": "",
+      "summary": "Chen, R. (2023). Unpublished undergraduate honor thesis, Emory University"
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
+  "presentations": [],
   "teaching": [
     {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
+      "course": "Undergraduate Teaching Assistants (UTAs) in Emory College",
+      "institution": "Emory College",
+      "date": "2022-08-01",
+      "role": "Teaching Assistant",
+      "description": "Teaching Assistants for Introduction to Statistical Computing with R. Faculty Advisor: Professor Hojin Kim"
     },
     {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
+      "course": "Move Your Math: Embodied Learning Seminar",
+      "institution": "Emory University", 
+      "date": "2022-08-01",
+      "role": "Instructor/Faculty Advisor",
+      "description": "Instructor/Faculty Advisor: Professor Manuela Manetta, Professor Lori Teague"
     }
   ],
   "portfolio": [
     {
-      "name": "Portfolio item number 1",
+      "name": "Educational Code-switched Language Pipeline with Encoder-Decoder Architecture",
       "category": "portfolio",
-      "date": "",
+      "date": "2024-09-01",
       "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+      "description": "Developed encoder-decoder architecture with transfer learning for Mandarin-English code-switched instructional language processing"
+    },
+    {
+      "name": "Movie Recommender Chatbot Product Development Project", 
+      "category": "portfolio",
+      "date": "2023-01-01",
+      "url": "",
+      "description": "Built a Python-based chatbot that recommends movies using sentiment analysis and multiple AI approaches"
+    },
+    {
+      "name": "Drowsiness Detection for Student Attention Monitoring",
+      "category": "portfolio", 
+      "date": "2024-01-01",
+      "url": "",
+      "description": "Architected multi-modal attention monitoring system using LeNet-5 CNN with fine-tuned MobileNetV2"
+    },
+    {
+      "name": "Quality Measurements for Reflective Session Notes: Understanding Mentorship",
+      "category": "portfolio",
+      "date": "2024-01-01", 
+      "url": "",
+      "description": "Processed and analyzed 18,911 session notes using NLTK and TextBlob for mentorship quality assessment"
     }
   ]
 }
