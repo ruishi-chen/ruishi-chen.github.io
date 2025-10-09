@@ -130,22 +130,37 @@
 /* Make content text smaller than section titles */
 .page__content p {
     font-size: 0.9em !important;
+    margin-left: 1.5em !important; /* Indent paragraphs */
+}
+
+.page__content ul {
+    margin-left: 3em !important; /* Indent bullet lists more */
+    padding-left: 0 !important;
 }
 
 .page__content ul li {
     font-size: 0.9em !important;
+    margin-left: 0 !important;
+    padding-left: 0.5em !important;
 }
 
-/* Publication entries - make them smaller than subsection titles */
+/* Publication entries - make them smaller than subsection titles and indent */
 .archive__item-title {
     font-size: 0.85em !important;
+    margin-left: 1.5em !important; /* Indent publication entries */
+}
+
+.archive__item {
+    margin-left: 1.5em !important; /* Indent the entire publication item */
 }
 
 /* Keep main section titles (h2) and subsection titles (h3) at normal size */
 .page__content h2 {
     font-size: 1.5em !important;
+    margin-left: 0 !important; /* Keep main titles flush left */
 }
 
 .page__content h3 {
     font-size: 1.2em !important;
+    margin-left: 0.5em !important; /* Slight indent for subsection titles */
 }
