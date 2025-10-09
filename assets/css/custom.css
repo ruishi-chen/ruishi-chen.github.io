@@ -80,6 +80,33 @@
     margin-top: 20px !important;
 }
 
+/* Fix social media icons display - force show icons */
+.author__urls li::before {
+    content: none !important;
+}
+
+.author__urls li {
+    list-style: none !important;
+}
+
+/* Force display Font Awesome and Academicons */
+.author__urls li i.fas,
+.author__urls li i.fab,
+.author__urls li i.ai {
+    display: inline-block !important;
+    font-family: "Font Awesome 5 Free", "Font Awesome 5 Brands", "Academicons" !important;
+    font-weight: 900 !important;
+    font-style: normal !important;
+    text-rendering: auto !important;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+/* Fallback: if icons don't show, at least show text properly */
+.author__urls li a {
+    text-decoration: none !important;
+    color: #494e52 !important;
+}
+
 /* Style links - black, bold, no underlines or italics */
 .page__content a,
 .archive__item-title a,

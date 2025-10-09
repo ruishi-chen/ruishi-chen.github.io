@@ -25,9 +25,9 @@ author:
   avatar           : "RuishiC.JPG"
   name             : "Ruishi Chen"
   pronouns         : "she/her"
-  bio              : "Ph.D. Student \n at Stanford University"
+  #bio              : "Ph.D. Student \n at Stanford University"
   # location         : "Stanford, CA"
-  # employer         : "Stanford University"
+  employer         : "Stanford University"
   #uri              : # URL
   email            : "ruishich@stanford.edu" 
 
@@ -45,7 +45,7 @@ author:
   #bitbucket        : # Username - Update with your username on the site
   #codepen          : # Username
   #dribbble         : # Username
-  #github           : "ruishi-chen"
+  github           : "ruishi-chen"
   #kaggle           : # Username  
   #stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
