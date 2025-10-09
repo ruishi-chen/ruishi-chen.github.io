@@ -1,0 +1,127 @@
+/* Custom styles for round and zoomed avatar */
+.author__avatar img {
+    border-radius: 50% !important; /* Make it round/circular */
+    max-width: 200px !important; /* Slightly smaller for better proportion */
+    max-height: 200px !important; /* Square aspect ratio for circle */
+    width: 200px !important; /* Fixed width */
+    height: 200px !important; /* Fixed height for perfect circle */
+    object-fit: cover !important; /* Crop to fill the circle, zoomed effect */
+    object-position: center !important; /* Center the cropping */
+}
+
+/* Center only the photo, name, and pronouns - keep links left-aligned */
+.sidebar .author__avatar,
+.author__avatar {
+    text-align: center !important;
+    display: block !important;
+    width: 100% !important;
+    margin: 0 auto !important;
+}
+
+.sidebar .author__content,
+.author__content {
+    display: block !important;
+    width: 100% !important;
+    text-align: center !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.sidebar .author__name,
+.author__name {
+    text-align: center !important;
+    margin: 10px auto !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+.sidebar .author__pronouns,
+.author__pronouns {
+    text-align: center !important;
+    margin: 5px auto !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+.sidebar .author__bio,
+.author__bio {
+    text-align: center !important;
+    margin: 10px auto !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+/* Override any table-cell display that might be causing alignment issues */
+@media screen and (min-width: 64em) {
+    .author__avatar {
+        display: block !important;
+        width: auto !important;
+        height: auto !important;
+        text-align: center !important;
+    }
+    
+    .author__content {
+        display: block !important;
+        width: 100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        text-align: center !important;
+    }
+}
+
+/* Keep social links left-aligned */
+.author__urls-wrapper,
+.author__urls {
+    text-align: left !important;
+}
+
+/* Add space between personal info and contact links */
+.author__urls li:first-child {
+    margin-top: 20px !important;
+}
+
+/* Remove underlines and colors from ALL links across the site */
+.page__content a,
+.archive__item-title a,
+.archive__item a {
+    text-decoration: none !important;
+    color: inherit !important; /* Keep the same color as surrounding text */
+}
+
+.page__content a:hover,
+.archive__item-title a:hover,
+.archive__item a:hover {
+    text-decoration: none !important;
+    color: inherit !important; /* Keep the same color on hover too */
+}
+
+.page__content a:visited,
+.archive__item-title a:visited,
+.archive__item a:visited {
+    color: inherit !important; /* Keep the same color for visited links */
+}
+
+/* Tighter line spacing for Education section */
+.page__content h2 + p,
+.page__content h2 + ul,
+.page__content h2 + ul li,
+.page__content p,
+.page__content ul li {
+    line-height: 1.15 !important;
+}
+
+/* Reduce spacing between education entries */
+.page__content h2 + p + ul + p {
+    margin-top: 0.5em !important;
+}
+
+/* Indent bullet points in Education section */
+.page__content ul {
+    margin-left: 2em !important;
+    padding-left: 0 !important;
+}
+
+.page__content ul li {
+    margin-left: 0 !important;
+    padding-left: 0.5em !important;
+}

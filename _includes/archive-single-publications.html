@@ -1,0 +1,17 @@
+{% include base_path %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+{% assign formatted_title = title | replace: "Chen, R.", "<strong>Chen, R.</strong>" %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    <p class="archive__item-title" itemprop="headline" style="color: black; text-decoration: none; font-weight: normal; margin: 0 0 15px 0; padding: 0;">
+      {{ formatted_title }}
+    </p>
+  </article>
+</div>

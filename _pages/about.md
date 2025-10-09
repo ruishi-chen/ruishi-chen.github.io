@@ -1,28 +1,24 @@
 ---
 permalink: /
-title: "About"
+#title: " "
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-I am a PhD student in Education Data Science at Stanford University, specializing in Social Network Methods, Natural Language Processing, Machine Learning, and Computer Vision. My research focuses on incorporating social network methods with natural language processing to understand social interactions and understanding information diffusion in the sciences, education, and digital media.
-
-I hold a Bachelor of Science in Applied Mathematics and Statistics with a Sociology minor from Emory University, where I graduated Summa Cum Laude with Phi Beta Kappa honors. I have extensive experience in research, teaching, and professional development across multiple domains including educational technology, AI in education, and social network analysis.
-
-## Current Research
-
-I am currently working on several research projects at Stanford:
-
-- **Support Novice Teachers in Generating Misconception Look-fors with LLMs** - Architecting multi-agent AI simulation leveraging OpenAI API GPT-4o, RAG, and few-shot prompting
-- **Cheating in the Age of Generative AI (ChAI)** - Designing and testing survey items to capture responses to AI-powered technology
-- **Factors Influencing Desk Rejection in Peer Review** - Developing advanced NLP pipelines and analyzing large-scale knowledge networks
+I am a **Ph.D. student** in the Education Data Science program at Stanford University, primarily advised by Professor [**Daniel McFarland**](https://profiles.stanford.edu/daniel-mcfarland) in the [**MIMIR Knowledge Creation Lab**](https://mimir.stanford.edu). I also work closely with Professor [**Victor R. Lee**](https://profiles.stanford.edu/victorlee) in the [**Data Interactions & STEM Teaching and Learning Lab (DISTAL)**](https://distal.stanford.edu). 
 
 ## Research Interests
 
-My research interests include:
-- Incorporating social network methods with natural language processing to understand social interactions
-- Understanding information diffusion in the sciences, education, and digital media
-- Educational technology and AI applications in learning environments
-- Machine learning applications in educational data science
+I use **computational methods** — including causal inference, natural language processing, and social network analysis — to model how innovations and ideas emerge, spread, and take root across social systems. I am particularly interested in: 
+
+- **Diffusion of knowledge and ideas**: how ideas are produced, selected, and diffused through scholarly communication and peer review
+- **Innovation and technology adoption**: how organizations and social systems respond to and integrate emerging technologies
+- **AI in education**: how AI-empowered tools are adopted and used in secondary education
+
+## Education
+
+- Ph.D. Student in Education Data Science, Stanford University, 2025 - Present
+- M.S. in Education Data Science, Stanford University, 2023 - 2025
+- B.S. in Applied Mathematics and Statistics, Emory University, 2020 - 2023

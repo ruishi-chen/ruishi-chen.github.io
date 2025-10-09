@@ -8,8 +8,10 @@ date: 2022-08-01
 location: "Atlanta, GA"
 ---
 
-**Position:** Teaching Assistants for Introduction to Statistical Computing with R  
+**Position:** Teaching Assistants  
+
 **Duration:** August 2022 – May 2023  
+
 **Faculty Advisor:** Professor Hojin Kim
 
 As an Undergraduate Teaching Assistant for Introduction to Statistical Computing with R, I supported students in learning fundamental statistical computing concepts and R programming. This role involved helping students understand statistical methods, troubleshooting coding issues, and facilitating their understanding of data analysis techniques using R.

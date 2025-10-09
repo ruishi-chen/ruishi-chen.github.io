@@ -12,10 +12,10 @@ site_theme               : "default"
 title                    : "Ruishi Chen"
 title_separator          : "-"
 name                     : &name "Ruishi Chen"
-description              : &description "PhD Student in Education Data Science at Stanford University"
+description              : &description "Ph.D. Student in Education Data Science at Stanford University"
 url                      : https://ruishichen.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "RuishiCh-git/ruishichen.github.io"
+repository               : "ruishi-chen/ruishichen.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,9 +25,9 @@ author:
   avatar           : "RuishiC.JPG"
   name             : "Ruishi Chen"
   pronouns         : "she/her"
-  bio              : "PhD Student in Education Data Science at Stanford University"
-  location         : "Stanford, CA"
-  employer         : "Stanford University"
+  bio              : "Ph.D. Student \n at Stanford University"
+  # location         : "Stanford, CA"
+  # employer         : "Stanford University"
   #uri              : # URL
   email            : "ruishich@stanford.edu" 
 
@@ -45,7 +45,7 @@ author:
   #bitbucket        : # Username - Update with your username on the site
   #codepen          : # Username
   #dribbble         : # Username
-  github           : "RuishiCh-git"
+  github           : "ruishi-chen"
   #kaggle           : # Username  
   #stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -59,7 +59,7 @@ author:
   #k#eybase          : # Username
   #instagram        : # Username
   #lastfm           : # Username
-  #linkedin         : # Username
+  linkedin         : "ruishichen"
   #mastodon         : # URL
   #medium           : # URL
   #pinterest        : # Username
@@ -80,9 +80,13 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
+  submissions:
+    title: 'Submission in Process'    
   conferences:
     title: 'Conference Papers'
+  others:
+    title: 'Others'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
