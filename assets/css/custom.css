@@ -80,34 +80,52 @@
     margin-top: 20px !important;
 }
 
-/* Remove underlines and colors from ALL links across the site */
+/* Style links - black, bold, no underlines or italics */
 .page__content a,
 .archive__item-title a,
 .archive__item a {
     text-decoration: none !important;
-    color: inherit !important; /* Keep the same color as surrounding text */
+    color: black !important;
+    font-weight: 700 !important; /* Use specific weight for consistency */
+    font-style: normal !important;
+}
+
+/* Ensure all bold text (markdown and links) uses identical styling across all pages */
+.page__content strong,
+.page__content b,
+.archive strong,
+.archive b,
+strong,
+b {
+    font-weight: 700 !important; /* Same weight as links */
+    color: black !important; /* Same color as links */
+    font-style: normal !important; /* No italics */
 }
 
 .page__content a:hover,
 .archive__item-title a:hover,
 .archive__item a:hover {
     text-decoration: none !important;
-    color: inherit !important; /* Keep the same color on hover too */
+    color: black !important;
+    font-weight: 700 !important; /* Same weight as normal state */
+    font-style: normal !important;
 }
 
 .page__content a:visited,
 .archive__item-title a:visited,
 .archive__item a:visited {
-    color: inherit !important; /* Keep the same color for visited links */
+    color: black !important;
+    font-weight: 700 !important; /* Same weight as normal state */
+    font-style: normal !important;
 }
 
-/* Tighter line spacing for Education section */
+/* Improved line spacing for better readability */
 .page__content h2 + p,
 .page__content h2 + ul,
 .page__content h2 + ul li,
 .page__content p,
 .page__content ul li {
-    line-height: 1.15 !important;
+    line-height: 1.4;
 }
 
 /* Reduce spacing between education entries */
@@ -127,40 +145,55 @@
 }
 
 /* Font size adjustments for research page content */
-/* Make content text smaller than section titles */
+/* Make content text slightly smaller than section titles */
 .page__content p {
-    font-size: 0.9em !important;
-    margin-left: 1.5em !important; /* Indent paragraphs */
+    font-size: 0.95em;
+    margin-left: 1em; /* Slight indent for paragraphs */
 }
 
 .page__content ul {
-    margin-left: 3em !important; /* Indent bullet lists more */
-    padding-left: 0 !important;
+    margin-left: 2em; /* Moderate indent for bullet lists */
+    padding-left: 0;
 }
 
 .page__content ul li {
-    font-size: 0.9em !important;
-    margin-left: 0 !important;
-    padding-left: 0.5em !important;
+    font-size: 0.95em;
+    margin-left: 0;
+    padding-left: 0.3em;
 }
 
-/* Publication entries - make them smaller than subsection titles and indent */
+/* Publication entries - make them same size as paragraph text */
 .archive__item-title {
-    font-size: 0.85em !important;
-    margin-left: 1.5em !important; /* Indent publication entries */
+    font-size: 0.95em; /* Same as paragraph text */
+    margin-left: 1em; /* Moderate indent for publication entries */
 }
 
 .archive__item {
-    margin-left: 1.5em !important; /* Indent the entire publication item */
+    margin-left: 1em; /* Moderate indent for the entire publication item */
 }
 
-/* Keep main section titles (h2) and subsection titles (h3) at normal size */
+/* Keep main section titles (h2) and subsection titles (h3) at reasonable size */
 .page__content h2 {
-    font-size: 1.5em !important;
-    margin-left: 0 !important; /* Keep main titles flush left */
+    font-size: 1.4em;
+    margin-left: 0; /* Keep main titles flush left */
 }
 
 .page__content h3 {
-    font-size: 1.2em !important;
-    margin-left: 0.5em !important; /* Slight indent for subsection titles */
+    font-size: 1.15em;
+    margin-left: 0.3em; /* Slight indent for subsection titles */
+}
+
+/* Teaching page specific styling */
+/* Target teaching pages by URL pattern or use a more specific selector */
+/* Make teaching titles black and same size as regular text */
+.page__title {
+    color: black !important;
+    font-size: 0.95em !important; /* Same size as regular content text */
+    font-weight: normal !important;
+}
+
+/* Indent the instructor/role line that appears right after the title */
+.page__content > p:first-of-type {
+    margin-left: 1em;
+    font-style: normal;
 }

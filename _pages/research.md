@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Research"
+title: " "
 permalink: /research/
 author_profile: true
 ---
@@ -8,8 +8,6 @@ author_profile: true
 {% include base_path %}
 
 ## Current Research
-
-I am currently working on several research projects at Stanford:
 
 - **Consultation in Peer Review** - Why is peer review important? How do reviewers and editors operate the process? What factors impact editorial decisions? 
 - **Character AI (ChAI)** - How do students' perceptions of school experiences influence their adoption of AI? 

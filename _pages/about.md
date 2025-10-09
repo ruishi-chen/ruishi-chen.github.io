@@ -13,9 +13,9 @@ I am a **Ph.D. student** in the Education Data Science program at Stanford Unive
 
 I use **computational methods** — including causal inference, natural language processing, and social network analysis — to model how innovations and ideas emerge, spread, and take root across social systems. I am particularly interested in: 
 
-- **Diffusion of knowledge and ideas**: how ideas are produced, selected, and diffused through scholarly communication and peer review
-- **Innovation and technology adoption**: how organizations and social systems respond to and integrate emerging technologies
-- **AI in education**: how AI-empowered tools are adopted and used in secondary education
+- **Knowledge Diffusion**: how ideas are produced, selected, and diffused through scholarly communication and peer review
+- **Innovation and Technology Adoption**: how organizations and social systems respond to and integrate emerging technologies
+- **AI in Education**: how AI-empowered tools are adopted and used in secondary education
 
 ## Education
 
