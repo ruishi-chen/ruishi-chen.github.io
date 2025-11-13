@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me 
 
-I am a **Ph.D. student** in the Education Data Science program at Stanford University, primarily advised by Professor [**Daniel McFarland**](https://profiles.stanford.edu/daniel-mcfarland) in the [**MIMIR Knowledge Creation Lab**](https://mimir.stanford.edu). I also work closely with Professor [**Victor R. Lee**](https://profiles.stanford.edu/victorlee) in the [**Data Interactions & STEM Teaching and Learning Lab (DISTAL)**](https://distal.stanford.edu). 
+I am a **Ph.D. student** at Stanford University, primarily advised by Professor [**Daniel McFarland**](https://profiles.stanford.edu/daniel-mcfarland) in the [**MIMIR Knowledge Creation Lab**](https://mimir.stanford.edu). I also work closely with Professor [**Victor R. Lee**](https://profiles.stanford.edu/victorlee) in the [**Data Interactions & STEM Teaching and Learning Lab (DISTAL)**](https://distal.stanford.edu). 
 
 ## Research Interests
 
@@ -21,6 +21,6 @@ I use **computational methods** — including causal inference, natural language
 
 ## Education
 
-- Ph.D. Student in Education Data Science, Stanford University, 2025 - Present
+- Ph.D. Student, Stanford University, 2025 - Present
 - M.S. in Education Data Science, Stanford University, 2023 - 2025
 - B.S. in Applied Mathematics and Statistics, Emory University, 2020 - 2023
