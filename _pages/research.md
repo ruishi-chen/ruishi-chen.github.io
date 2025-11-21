@@ -12,6 +12,17 @@ author_profile: true
 - **Consultation in Peer Review** - Why is peer review important? How do reviewers and editors operate the process? What factors impact editorial decisions? 
 - **Character AI (ChAI)** - How do students' perceptions of school experiences influence their adoption of AI? 
 
+
+<!-- Submission in Process -->
+{% assign submissions = site.publications | where: "category", "submissions" | sort: "date" | reverse %}
+{% if submissions.size > 0 %}
+## Work in Process
+<hr />
+{% for post in submissions %}
+  {% include archive-single-publications.html %}
+{% endfor %}
+{% endif %}
+
 ## Publications
 
 <!-- Journal Articles -->
@@ -24,15 +35,6 @@ author_profile: true
 {% endfor %}
 {% endif %}
 
-<!-- Submission in Process -->
-{% assign submissions = site.publications | where: "category", "submissions" | sort: "date" | reverse %}
-{% if submissions.size > 0 %}
-### Submission in Process
-<hr />
-{% for post in submissions %}
-  {% include archive-single-publications.html %}
-{% endfor %}
-{% endif %}
 
 <!-- Conference Papers -->
 {% assign conferences = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
