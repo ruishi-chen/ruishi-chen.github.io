@@ -1,7 +1,7 @@
 ---
-title: "Chen, R., Lee, V. R., Kuo, A., Pope, D., & Miles, S. (2025). Cheating after a full academic year with Generative AI Chatbots: A follow-up study on high school student cheating behaviors. Manuscript under review (revise & resubmit)."
+title: "Chen, R., Lee, V. R., Kuo, A. C., Pope, D. C., & Miles, S. (2026). Cheating in the second year of generative AI chatbots: a follow-up study on high school student cheating behaviors. Educational technology research and development, 1-29."
 collection: publications
-category: submissions
-date: 2025-01-01
+category: manuscripts
+date: 2025-12-31
 ---
 
