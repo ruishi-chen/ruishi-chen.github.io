@@ -9,10 +9,9 @@ author_profile: true
 
 ## Current Research
 
-- **Evaluative Systems in Science and Innovation** - How do institutions decide which ideas deserve recognition and advancement? I study evaluation processes such as *scientific peer review* and *patent examination* to understand how experts interpret evidence, exchange judgments, and reach decisions under uncertainty. 
-- **LLM in Peer Review** - Why is peer review important? How do reviewers and editors operate the process? What factors impact editorial decisions? As AI systems increasingly participate in evaluation and collaboration, how do they reshape decision processes? I build *LLM-based simulations* to study hybrid human–AI evaluation systems, exploring how AI participation may alter collective judgments, decision alignment, and institutional outcomes. 
-- **Character AI (ChAI)** - How do students' perceptions of school experiences influence their use of AI? I examine how students’ experiences at school, motivations, and perceptions of schoolwork shape their adoption and use of AI tools in educational contexts.
-
+- **Patent Examination** – How do institutions decide which ideas deserve recognition and advancement? How do individual and collective evaluators interpret legal and technical documentation during the patent examination process?
+- **Peer Review** - What is the goal of peer review? How do reviewers and editors evaluate new ideas, and what factors shape editorial decisions? As AI systems become embedded in evaluation and collaboration, how might they reshape these decision processes?
+- **Character AI (ChAI)** - How do students' perceptions of school experiences influence their use of AI? 
 
 <!-- Submission in Process -->
 {% assign submissions = site.publications | where: "category", "submissions" | sort: "date" | reverse %}
