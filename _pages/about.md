@@ -13,7 +13,9 @@ I am a **Ph.D. student** at Stanford University, primarily advised by Professor 
 
 ## Research Interests
 
-I use **computational methods** — including natural language processing, social network analysis, causal inference, and simulation — to study **how institutions evaluate ideas and innovations, and how these evaluative processes shape knowledge diffusion, technological adoption, and organizational decision-making**. I am particularly interested in: 
+I use **computational methods** — including natural language processing, social network analysis, causal inference, and simulation — to study **how institutions evaluate ideas and innovations, and how these evaluative processes shape knowledge diffusion, technological adoption, and organizational decision-making**. 
+
+I am particularly interested in: 
 
 - Knowledge Diffusion: how ideas are produced, evaluated, and diffused through scholarly communication and peer review
 - Innovation and Technology Adoption: how organizations and social systems evaluate, respond to, and integrate emerging technologies
