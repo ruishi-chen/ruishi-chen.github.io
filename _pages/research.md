@@ -9,8 +9,9 @@ author_profile: true
 
 ## Current Research
 
-- **Consultation in Peer Review** - Why is peer review important? How do reviewers and editors operate the process? What factors impact editorial decisions? 
-- **Character AI (ChAI)** - How do students' perceptions of school experiences influence their adoption of AI? 
+- **Evaluative Systems in Science and Innovation** - How do institutions decide which ideas deserve recognition and advancement? I study evaluation processes such as scientific peer review and patent examination to understand how experts interpret evidence, exchange judgments, and reach decisions under uncertainty. 
+- **LLM in Peer Review** - Why is peer review important? How do reviewers and editors operate the process? What factors impact editorial decisions? As AI systems increasingly participate in evaluation and collaboration, how do they reshape decision processes? 
+- **Character AI (ChAI)** - How do students' perceptions of school experiences influence their use of AI in educational contexts? 
 
 
 <!-- Submission in Process -->
