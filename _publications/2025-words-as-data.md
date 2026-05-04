@@ -1,7 +1,7 @@
 ---
-title: "Lee, V. R., Finlayson, E., & Chen, R. (2025). Words as Data: Integrating data visualizations and English Language Arts for classrooms with multilingual students. Manuscript under review (revise & resubmit)."
+title: "Lee, V. R., Finlayson, E., & Chen, R. (2025). Words as Data: Integrating data visualizations and English Language Arts for classrooms with multilingual students.(in press)"
 collection: publications
 category: manuscripts
-date: 2025-01-01
+date: 2026
 ---
 
