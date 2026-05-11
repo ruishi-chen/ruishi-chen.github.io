@@ -1,5 +1,5 @@
 ---
-title: "Chen, R. (2023). Can Students Step Up Their Mathematical Learning through Movement? A Course Evaluation for Move Your Math. Unpublished undergraduate honor thesis, Emory University."
+title: "Chen, R. (2023). Can students step up their mathematical learning through movement? A course evaluation for Move Your Math [Undergraduate honors thesis, Emory University]. Emory Theses and Dissertations."
 collection: publications
 category: others
 date: 2023-01-01
