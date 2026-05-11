@@ -16,7 +16,7 @@ author_profile: true
 <!-- Submission in Process -->
 {% assign submissions = site.publications | where: "category", "submissions" | sort: "date" | reverse %}
 {% if submissions.size > 0 %}
-## Work in Process
+## Work in Progress
 <hr />
 {% for post in submissions %}
   {% include archive-single-publications.html %}
@@ -31,6 +31,16 @@ author_profile: true
 ### Journal Articles
 <hr />
 {% for post in manuscripts %}
+  {% include archive-single-publications.html %}
+{% endfor %}
+{% endif %}
+
+<!-- Conference Preprints -->
+{% assign conference_preprints = site.publications | where: "category", "conference-preprints" | sort: "date" | reverse %}
+{% if conference_preprints.size > 0 %}
+### Conference Preprints
+<hr />
+{% for post in conference_preprints %}
   {% include archive-single-publications.html %}
 {% endfor %}
 {% endif %}
