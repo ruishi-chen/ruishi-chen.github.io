@@ -49,7 +49,7 @@ author_profile: true
 <!-- Conference Papers -->
 {% assign conferences = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
 {% if conferences.size > 0 %}
-### Conference Papers/Presentations
+### Presentations
 <hr />
 {% for post in conferences %}
   {% include archive-single-publications.html %}
