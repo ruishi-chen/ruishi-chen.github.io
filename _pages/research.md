@@ -9,8 +9,9 @@ author_profile: true
 
 ## Current Research
 
-- **Patent Examination** – How do institutions decide which ideas deserve recognition and advancement? How do individual and collective evaluators interpret legal and technical documentation during the patent examination process?
-- **Peer Review** - What is the goal of peer review? How do reviewers and editors evaluate new ideas, and what factors shape editorial decisions? As AI systems become embedded in evaluation and collaboration, how might they reshape these decision processes?
+- **Evaluation** 
+  - *Patent Examination* – How do institutions decide which ideas deserve recognition and advancement? How do individual and collective evaluators interpret legal and technical documentation during the patent examination process?
+  - *Peer Review* - What is the goal of peer review? How do reviewers and editors evaluate new ideas, and what factors shape editorial decisions? As AI systems become embedded in evaluation and collaboration, how might they reshape these decision processes?
 - **Character AI (ChAI)** - How do students' perceptions of school experiences influence their use of AI? 
 
 <!-- Submission in Process -->
