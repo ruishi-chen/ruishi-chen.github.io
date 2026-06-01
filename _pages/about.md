@@ -17,7 +17,8 @@ I am a computational social scientist. I use computational methods — including
 
 I am particularly interested in: 
 
-- Evaluation and gatekeeping in science and innovation: how peer review and patent examination shape which ideas advance in the knowledge economy
+- Evaluation in science and innovation: how peer review and patent examination shape which ideas advance in the knowledge economy
+- Knowledge and innovation diffusion: how ideas and technologies spread across fields, organizations, and institutional boundaries, and why some travel farther and faster than others
 - AI in Education: how AI-empowered tools are adopted and used in secondary education
 
 ## Education
