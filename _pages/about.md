@@ -9,7 +9,7 @@ redirect_from:
 
 ## About Me 
 
-I am a **Ph.D. student** at Stanford University, primarily advised by Professor [**Daniel McFarland**](https://profiles.stanford.edu/daniel-mcfarland) in the [MIMIR Knowledge Creation Lab](https://mimir.stanford.edu). I also work closely with Professor [**Victor R. Lee**](https://profiles.stanford.edu/victorlee) in the [Data Interactions & STEM Teaching and Learning Lab (DISTAL)](https://distal.stanford.edu). 
+I am a **Ph.D. student** at Stanford University, primarily advised by Professor [Daniel McFarland](https://profiles.stanford.edu/daniel-mcfarland) in the [MIMIR Knowledge Creation Lab](https://mimir.stanford.edu). I also work closely with Professor [Victor R. Lee](https://profiles.stanford.edu/victorlee) in the [Data Interactions & STEM Teaching and Learning Lab (DISTAL)](https://distal.stanford.edu). 
 
 ## Research Interests
 
