@@ -13,7 +13,7 @@ I am a **Ph.D. student** at Stanford University, primarily advised by Professor 
 
 ## Research Interests
 
-I am a computational social scientist. I use computational methods — including natural language processing, social network analysis, causal inference, and simulation — to study **how institutions evaluate ideas and innovations, and how these evaluative processes shape knowledge diffusion, technological adoption, and organizational decision-making**. 
+I am a computational social scientist. My research focuses on **how institutions evaluate ideas and innovations**, **how these evaluative processes shape knowledge diffusion**, and **how teams coordinate to make decisions under uncertainty**. My methods include natural language processing, social network analysis, causal inference, and simulation.
 
 I am particularly interested in: 
 
