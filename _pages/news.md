@@ -5,7 +5,7 @@ permalink: /news/
 author_profile: true
 ---
 
-## News
+## ✨News
 
 - **[Sep 2026]** *JudgmentBench: Comparing rubric and preference evaluation for quality assessment* was accepted to the NeurIPS 2026 Evaluations & Datasets Track.
 - **[Aug 2026]** *Inducing task models from computer-use traces* was accepted to EMNLP 2026.

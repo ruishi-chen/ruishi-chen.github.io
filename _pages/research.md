@@ -9,10 +9,14 @@ author_profile: true
 
 ## Current Research
 
-- **Evaluation** 
-  - *Patent Examination* – How do institutions decide which ideas deserve recognition and advancement? How do individual and collective evaluators interpret legal and technical documentation during the patent examination process?
-  - *Peer Review* - What is the goal of peer review? How do reviewers and editors evaluate new ideas, and what factors shape editorial decisions? As AI systems become embedded in evaluation and collaboration, how might they reshape these decision processes?
-- **Character AI (ChAI)** - How do students' perceptions of school experiences influence their use of AI? 
+- **Evaluation in Science and Innovation**
+  - *Peer Review* – Why do papers get desk rejected, and how does consultation between reviewers and editors shape editorial decisions? As LLMs enter peer review, do they homogenize evaluation or broaden it, and how should human–AI review panels be designed to balance decision quality and scale?
+  - *Patent Examination* – How do examiners interpret legal and technical claims? How do learning and routines in examiner–inventor interactions shape claim revisions, patent value, and litigation risk?
+- **Evaluating AI in Expert Domains**
+  - *Legal AI Evaluation* – How should we judge the quality of AI-generated legal work? 
+  - *Implicit Assumptions in Legal Scholarship* – How can we surface the undefended assumptions in law review articles?
+- **AI in Education**
+  - *Cheating in the Age of Generative AI (ChAI)* – How do high school students and teachers respond to AI chatbots? How do motivation, belonging, and perceptions of schoolwork shape students' AI use and academic integrity?
 
 <!-- Submission in Process -->
 {% assign submissions = site.publications | where: "category", "submissions" | sort: "date" | reverse %}
@@ -39,7 +43,7 @@ author_profile: true
 <!-- Conference Preprints -->
 {% assign conference_preprints = site.publications | where: "category", "conference-preprints" | sort: "date" | reverse %}
 {% if conference_preprints.size > 0 %}
-### Conference Preprints
+### Conference Papers
 <hr />
 {% for post in conference_preprints %}
   {% include archive-single-publications.html %}
