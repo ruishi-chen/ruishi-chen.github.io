@@ -11,5 +11,8 @@ main:
   - title: "Research"
     url: /research/
 
+  - title: "News"
+    url: /news/
+
   # - title: "Teaching"
   #   url: /teaching/
