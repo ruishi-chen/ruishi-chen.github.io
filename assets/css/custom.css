@@ -392,3 +392,58 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
 .greedy-nav a.is-active {
     color: #1a1a1a !important;
 }
+
+/* Keep the sidebar name on one line */
+.sidebar .author__name,
+.author__name {
+    white-space: nowrap;
+}
+
+@media screen and (max-width: 80em) {
+    .sidebar .author__name,
+    .author__name {
+        font-size: 1.35em !important;
+    }
+}
+
+/* Center the top menu (it is a display:table, so auto margins center it) */
+@media screen and (min-width: 48em) {
+    .greedy-nav .visible-links {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Size consistency: sidebar text closer to body size; subheadings a step above body */
+.author__urls li,
+.author__urls li a,
+.author__pronouns,
+.author__bio {
+    font-size: 16px !important;
+}
+
+.page__content h3,
+.archive h3 {
+    font-family: var(--heading-font) !important;
+    font-size: 1.15em !important;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* Links: normal weight, underlined (bold stays reserved for **emphasis**) */
+.page__content a,
+.page__content a:visited,
+.archive a,
+.archive a:visited {
+    font-weight: 400 !important;
+    color: #1a1a1a !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: 1px !important;
+    text-underline-offset: 3px;
+    text-decoration-color: #9a9fa4 !important;
+}
+
+.page__content a:hover,
+.archive a:hover {
+    text-decoration-color: #1a1a1a !important;
+}

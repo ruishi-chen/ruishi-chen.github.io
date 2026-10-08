@@ -9,7 +9,7 @@ redirect_from:
 
 ## Welcome! 
 
-I am a **Ph.D. student** at [Stanford MIMIR Knowledge Creation Lab](https://mimir.stanford.edu) advised by Professor [Daniel McFarland](https://profiles.stanford.edu/daniel-mcfarland). In my time at Stanford, I have also had the pleasure to work with [Daniel Scott Smith](https://www.danielscottsmith.com/), [Victor R. Lee](https://victor-r-lee.com/), [Melissa Valentine](https://www.melissavalentine.co/), [Julian Nyarko](https://juliannyarko.com/), and [Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
+I am a **Ph.D. student** at [Stanford MIMIR Knowledge Creation Lab](https://mimir.stanford.edu) advised by Professor [Daniel McFarland](https://profiles.stanford.edu/daniel-mcfarland). In my time at Stanford, I have also had the pleasure to work with [Victor R. Lee](https://victor-r-lee.com/), [Melissa Valentine](https://www.melissavalentine.co/), [Julian Nyarko](https://juliannyarko.com/), and [Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
 
 ## Research Interests
 
