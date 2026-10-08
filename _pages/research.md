@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-## Current Research
+<!-- ## Current Research
 
 - **Evaluation in Science and Innovation**
   - *Peer Review* – Why do papers get desk rejected, and how does consultation between reviewers and editors shape editorial decisions? As LLMs enter peer review, do they homogenize evaluation or broaden it, and how should human–AI review panels be designed to balance decision quality and scale?
@@ -16,7 +16,7 @@ author_profile: true
   - *Legal AI Evaluation* – How should we judge the quality of AI-generated legal work? 
   - *Implicit Assumptions in Legal Scholarship* – How can we surface the undefended assumptions in law review articles?
 - **AI in Education**
-  - *Cheating in the Age of Generative AI (ChAI)* – How do high school students and teachers respond to AI chatbots? How do motivation, belonging, and perceptions of schoolwork shape students' AI use and academic integrity?
+  - *Cheating in the Age of Generative AI (ChAI)* – How do high school students and teachers respond to AI chatbots? How do motivation, belonging, and perceptions of schoolwork shape students' AI use and academic integrity? -->
 
 <!-- Submission in Process -->
 {% assign submissions = site.publications | where: "category", "submissions" | sort: "date" | reverse %}

@@ -224,3 +224,139 @@ b {
     margin-left: 1em;
     font-style: normal;
 }
+
+/* ==========================================================================
+   Clean typography and spacing (overrides the rules above)
+   To change the font: swap "Inter" here and in _includes/head/custom.html
+   ========================================================================== */
+:root {
+    --site-font: "Inter", -apple-system, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+}
+
+html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
+.page__content, .page__content h1, .page__content h2, .page__content h3,
+.archive, .archive__item-title {
+    font-family: var(--site-font) !important;
+}
+
+.page__content {
+    line-height: 1.65;
+}
+
+/* Section headings: darker, tighter */
+.page__content h2 {
+    color: #1a1a1a;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin-top: 1.6em;
+    padding-bottom: 0.3em;
+}
+
+/* One consistent left edge: no paragraph indents */
+.page__content p,
+.page__content > p:first-of-type {
+    margin-left: 0 !important;
+    font-size: 1em;
+}
+
+.page__content ul {
+    margin-left: 1.25em !important;
+}
+
+.page__content ul li {
+    font-size: 1em;
+    margin-bottom: 0.45em;
+}
+
+/* Stop nested lists from shrinking twice */
+.page__content ul ul {
+    margin-top: 0.4em;
+}
+
+.page__content ul ul li {
+    font-size: 1em;
+}
+
+/* Lighter bold for links and emphasis so text doesn't look heavy */
+.page__content a,
+.page__content a:visited,
+.page__content a:hover,
+.page__content strong,
+.page__content b {
+    font-weight: 600 !important;
+}
+
+.page__content a:hover {
+    text-decoration: underline !important;
+}
+
+/* Masthead */
+.greedy-nav a {
+    font-weight: 500;
+}
+
+/* Archive-layout pages (Research): same font, sizes and link style */
+.archive {
+    line-height: 1.65;
+}
+
+.archive h2 {
+    color: #1a1a1a;
+    font-weight: 600;
+    font-size: 1.4em;
+}
+
+.archive p,
+.archive ul li,
+.archive ul ul li {
+    font-size: 1em;
+}
+
+.archive a,
+.archive a:visited {
+    color: black !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+}
+
+.archive a:hover {
+    text-decoration: underline !important;
+}
+
+/* Name in the top bar is a label, not a link */
+.masthead__name {
+    display: block;
+    margin: 0 0.25rem;
+    padding: 0.5rem 0;
+    color: #494e52;
+    font-weight: 700;
+    cursor: default;
+}
+
+/* Serif headings (Source Serif 4) over Inter body text */
+:root {
+    --heading-font: "Source Serif 4", Georgia, "Times New Roman", serif;
+}
+
+.page__content h2,
+.archive h2,
+.author__name,
+.masthead__name {
+    font-family: var(--heading-font) !important;
+    font-weight: 600 !important;
+    letter-spacing: 0;
+    color: #1a1a1a !important;
+}
+
+.page__content h2,
+.archive h2 {
+    font-size: 1.6em;
+}
+
+/* Keep the profile photo a circle when the sidebar is narrow */
+.author__avatar img {
+    width: 100% !important;
+    max-width: 200px !important;
+    height: auto !important;
+    aspect-ratio: 1 / 1;
+}

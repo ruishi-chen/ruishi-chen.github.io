@@ -1,0 +1,16 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "jekyll",
+      "runtimeExecutable": "env",
+      "runtimeArgs": [
+        "RUBYOPT=-r/private/tmp/claude-501/-Users-cathychen-PersonalWebpage-ruishichen-github-io/b6c0142f-1d91-479f-8569-f4bd08fdde9e/scratchpad/gems/taint_shim.rb",
+        "BUNDLE_GEMFILE=/private/tmp/claude-501/-Users-cathychen-PersonalWebpage-ruishichen-github-io/b6c0142f-1d91-479f-8569-f4bd08fdde9e/scratchpad/gems/Gemfile",
+        "bundle", "exec", "jekyll", "serve", "--port", "4000",
+        "-d", "/private/tmp/claude-501/-Users-cathychen-PersonalWebpage-ruishichen-github-io/b6c0142f-1d91-479f-8569-f4bd08fdde9e/scratchpad/site"
+      ],
+      "port": 4000
+    }
+  ]
+}
