@@ -360,3 +360,35 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
     height: auto !important;
     aspect-ratio: 1 / 1;
 }
+
+/* Size balance: larger sidebar name, smaller section headings */
+.sidebar .author__name,
+.author__name {
+    font-size: 1.6em !important;
+    line-height: 1.2;
+}
+
+.page__content h2,
+.archive h2 {
+    font-size: 1.35em !important;
+}
+
+/* Top menu links in the same serif as the name */
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a {
+    font-family: var(--heading-font) !important;
+    font-weight: 600;
+    color: #1a1a1a;
+}
+
+/* Current page in black, other menu links grey */
+.greedy-nav .visible-links a,
+.greedy-nav .hidden-links a {
+    color: #8a8f94 !important;
+}
+
+.greedy-nav .visible-links a:hover,
+.greedy-nav .hidden-links a:hover,
+.greedy-nav a.is-active {
+    color: #1a1a1a !important;
+}
