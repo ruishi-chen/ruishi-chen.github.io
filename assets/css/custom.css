@@ -447,3 +447,10 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
 .archive a:hover {
     text-decoration-color: #1a1a1a !important;
 }
+
+/* Links inside **bold** stay bold (and underlined) */
+.page__content strong a,
+.page__content b a,
+.archive strong a {
+    font-weight: 700 !important;
+}
