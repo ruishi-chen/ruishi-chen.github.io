@@ -1,6 +1,6 @@
 ---
-title: "Yang, R., Chen, R., Kelaita, P., Ranjan, R., Ma, S., Dickens, C. A., Guillod, M., Ma, M., & Nyarko, J. (2026). JudgmentBench: Comparing rubric and preference evaluation for quality assessment [Manuscript submitted for review]."
+title: "Yang, R., Chen, R., Kelaita, P., Ranjan, R., Ma, S., Dickens, C. A., Guillod, M., Ma, M., & Nyarko, J. (in press). JudgmentBench: Comparing rubric and preference evaluation for quality assessment. In Advances in Neural Information Processing Systems 39 (NeurIPS 2026), Evaluations and Datasets Track."
 collection: publications
-category: submissions
-date: 2026-01-01
+category: conference-preprints
+date: 2026-09-25
 ---
