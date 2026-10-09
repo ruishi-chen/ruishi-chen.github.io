@@ -53,7 +53,8 @@ author_profile: true
 <!-- Conference Papers -->
 {% assign conferences = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
 {% if conferences.size > 0 %}
-### Presentations
+
+## Presentations
 <hr />
 {% for post in conferences %}
   {% include archive-single-publications.html %}
@@ -63,7 +64,8 @@ author_profile: true
 <!-- Others -->
 {% assign others = site.publications | where: "category", "others" | sort: "date" | reverse %}
 {% if others.size > 0 %}
-### Others
+
+## Others
 <hr />
 {% for post in others %}
   {% include archive-single-publications.html %}
