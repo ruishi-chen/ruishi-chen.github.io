@@ -18,36 +18,14 @@ author_profile: true
 - **AI in Education**
   - *Cheating in the Age of Generative AI (ChAI)* – How do high school students and teachers respond to AI chatbots? How do motivation, belonging, and perceptions of schoolwork shape students' AI use and academic integrity? -->
 
+## Publications
+
 <!-- Submission in Process -->
 {% assign submissions = site.publications | where: "category", "submissions" | sort: "date" | reverse %}
 {% if submissions.size > 0 %}
-
-## Publications
-
-
-## Work in Progress
+### Work in Progress
 <hr />
 {% for post in submissions %}
-  {% include archive-single-publications.html %}
-{% endfor %}
-{% endif %}
-
-
-<!-- Journal Articles -->
-{% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
-{% if manuscripts.size > 0 %}
-
-### Conference Preprints
-<hr />
-{% for post in conference_preprints %}
-  {% include archive-single-publications.html %}
-{% endfor %}
-{% endif %}
-
-
-### Journal Articles
-<hr />
-{% for post in manuscripts %}
   {% include archive-single-publications.html %}
 {% endfor %}
 {% endif %}
@@ -55,6 +33,22 @@ author_profile: true
 <!-- Conference Preprints -->
 {% assign conference_preprints = site.publications | where: "category", "conference-preprints" | sort: "date" | reverse %}
 {% if conference_preprints.size > 0 %}
+### Conference Preprints
+<hr />
+{% for post in conference_preprints %}
+  {% include archive-single-publications.html %}
+{% endfor %}
+{% endif %}
+
+<!-- Journal Articles -->
+{% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
+{% if manuscripts.size > 0 %}
+### Journal Articles
+<hr />
+{% for post in manuscripts %}
+  {% include archive-single-publications.html %}
+{% endfor %}
+{% endif %}
 
 <!-- Conference Papers -->
 {% assign conferences = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
@@ -69,7 +63,6 @@ author_profile: true
 <!-- Others -->
 {% assign others = site.publications | where: "category", "others" | sort: "date" | reverse %}
 {% if others.size > 0 %}
-
 ### Others
 <hr />
 {% for post in others %}
