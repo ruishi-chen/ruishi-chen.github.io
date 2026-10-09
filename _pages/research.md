@@ -21,12 +21,6 @@ author_profile: true
 <!-- Submission in Process -->
 {% assign submissions = site.publications | where: "category", "submissions" | sort: "date" | reverse %}
 {% if submissions.size > 0 %}
-## Work in Progress
-<hr />
-{% for post in submissions %}
-  {% include archive-single-publications.html %}
-{% endfor %}
-{% endif %}
 
 ## Publications
 
@@ -64,6 +58,14 @@ author_profile: true
 <!-- Others -->
 {% assign others = site.publications | where: "category", "others" | sort: "date" | reverse %}
 {% if others.size > 0 %}
+
+## Work in Progress
+<hr />
+{% for post in submissions %}
+  {% include archive-single-publications.html %}
+{% endfor %}
+{% endif %}
+
 ### Others
 <hr />
 {% for post in others %}

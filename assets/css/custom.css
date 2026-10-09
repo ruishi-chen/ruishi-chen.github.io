@@ -484,3 +484,35 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
     font-weight: 500 !important;
     color: #000 !important;
 }
+
+/* Sidebar links as a single row of icons (labels hidden, kept for screen readers via aria-label) */
+.author__urls.social-icons {
+    display: flex !important;
+    justify-content: center;
+    gap: 1.1em;
+    padding: 0;
+    margin-top: 0.6em;
+}
+
+.author__urls.social-icons li {
+    display: inline-block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.author__urls.social-icons li a {
+    font-size: 0 !important;
+    display: inline-block;
+    padding: 0 !important;
+}
+
+.author__urls.social-icons li a i {
+    font-size: 22px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: auto;
+}
+
+.author__urls.social-icons li a:hover i {
+    opacity: 0.7;
+}
