@@ -1,13 +1,13 @@
 {
-	"name": "OOjs UI icon academic-progressive",
+	"name": "Ruishi Chen",
 	"icons": [
 		{
-			"src": "/images/favicon-192x192.png",
+			"src": "/images/photo-favicon-192.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
 		{
-			"src": "/images/favicon-512x512.png",
+			"src": "/images/photo-favicon-512.png",
 			"sizes": "512x512",
 			"type": "image/png"
 		}
