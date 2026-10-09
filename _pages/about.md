@@ -9,7 +9,7 @@ redirect_from:
 
 I am a **Ph.D. student**{: .light-bold} in the [Stanford MIMIR Knowledge Creation Lab](https://mimir.stanford.edu) advised by [Daniel A. McFarland](https://profiles.stanford.edu/daniel-mcfarland). 
 
-I came to computational social science through Emory University, where I double majored in Applied Mathematics and Statistics (a joint major in mathematics and quantitative methods) and Sociology. At Emory, I was advised by [Manuela Manetta](https://mannalela.wixsite.com/my-site/about-me-1) and [Weihua An](https://sociology.emory.edu/people/bios/An-Weihua.html). At Stanford, I have had the pleasure of working with [Victor R. Lee](https://victor-r-lee.com/), [Melissa Valentine](https://www.melissavalentine.co/), [Julian Nyarko](https://juliannyarko.com/), and [Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
+I came to computational social science through Emory University, where I double majored in Applied Mathematics and Statistics (a joint major in mathematics and quantitative methods) and Sociology. At Emory, I was advised by [Manuela Manetta](https://mannalela.wixsite.com/my-site/about-me-1) and [Weihua An](https://sociology.emory.edu/people/bios/An-Weihua.html). At Stanford, I have the pleasure of working with [Victor R. Lee](https://victor-r-lee.com/), [Melissa Valentine](https://www.melissavalentine.co/), [Julian Nyarko](https://juliannyarko.com/), and [Diyi Yang](https://cs.stanford.edu/~diyiy/index.html).
 
 
 ## 📚 What I Study
