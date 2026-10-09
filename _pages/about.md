@@ -18,8 +18,8 @@ I am a **computational social scientist** who uses natural language processing, 
 
 I am particularly interested in: 
 
-- **Evaluation in science and innovation:** how peer review and patent examination shape which ideas advance in the knowledge economy, and how targeted AI augmentation can improve these systems
-- **Evaluating AI in expert domains:** how to assess the quality of AI-generated work and judgments in high-stakes settings such as law and peer review, and when rubrics, expert preferences, or LLM judges can be trusted
+- **Evaluation of knowledge:** how peer review and patent examination shape which ideas advance in the knowledge economy, and how targeted AI augmentation can improve these systems
+- **AI and expert judgment:** how AI can support, rather than replace, expert judgment in high-stakes domains such as law and peer review, and how to evaluate when AI-generated work and assessments meet expert standards
 - **AI in education:** how students and teachers adopt generative AI in secondary schools, and what this means for academic integrity and how student work is assessed
 
 
