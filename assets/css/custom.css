@@ -454,3 +454,8 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
 .archive strong a {
     font-weight: 700 !important;
 }
+
+/* Always show "Stanford University" in the sidebar (theme hid it under 1024px) */
+.sidebar .author__desktop {
+    display: block !important;
+}
