@@ -43,4 +43,4 @@
 ;
 
 /* Import custom styles */
-@import url('custom.css');
+@import url('custom.css?v={{ site.time | date: '%s' }}');

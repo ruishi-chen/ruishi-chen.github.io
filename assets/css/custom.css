@@ -488,6 +488,7 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
 /* Sidebar links as a single row of icons (labels hidden, kept for screen readers via aria-label) */
 .author__urls.social-icons {
     display: flex !important;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 1.1em;
     padding: 0;

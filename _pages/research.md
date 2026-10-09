@@ -24,9 +24,27 @@ author_profile: true
 
 ## Publications
 
+
+## Work in Progress
+<hr />
+{% for post in submissions %}
+  {% include archive-single-publications.html %}
+{% endfor %}
+{% endif %}
+
+
 <!-- Journal Articles -->
 {% assign manuscripts = site.publications | where: "category", "manuscripts" | sort: "date" | reverse %}
 {% if manuscripts.size > 0 %}
+
+### Conference Preprints
+<hr />
+{% for post in conference_preprints %}
+  {% include archive-single-publications.html %}
+{% endfor %}
+{% endif %}
+
+
 ### Journal Articles
 <hr />
 {% for post in manuscripts %}
@@ -37,13 +55,6 @@ author_profile: true
 <!-- Conference Preprints -->
 {% assign conference_preprints = site.publications | where: "category", "conference-preprints" | sort: "date" | reverse %}
 {% if conference_preprints.size > 0 %}
-### Conference Papers
-<hr />
-{% for post in conference_preprints %}
-  {% include archive-single-publications.html %}
-{% endfor %}
-{% endif %}
-
 
 <!-- Conference Papers -->
 {% assign conferences = site.publications | where: "category", "conferences" | sort: "date" | reverse %}
@@ -58,13 +69,6 @@ author_profile: true
 <!-- Others -->
 {% assign others = site.publications | where: "category", "others" | sort: "date" | reverse %}
 {% if others.size > 0 %}
-
-## Work in Progress
-<hr />
-{% for post in submissions %}
-  {% include archive-single-publications.html %}
-{% endfor %}
-{% endif %}
 
 ### Others
 <hr />
