@@ -406,12 +406,10 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
     }
 }
 
-/* Center the top menu (it is a display:table, so auto margins center it) */
-@media screen and (min-width: 48em) {
-    .greedy-nav .visible-links {
-        margin-left: auto;
-        margin-right: auto;
-    }
+/* Center the top menu at every width (it is a display:table, so auto margins center it) */
+.greedy-nav .visible-links {
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* Size consistency: sidebar text closer to body size; subheadings a step above body */
@@ -516,4 +514,30 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
 
 .author__urls.social-icons li a:hover i {
     opacity: 0.7;
+}
+
+/* Phones/tablets: no "Follow" dropdown; show the icon row inline under the name */
+.author__urls-wrapper {
+    display: block !important;
+    width: 100%;
+    cursor: default;
+}
+
+.author__urls-wrapper button {
+    display: none !important;
+}
+
+.author__urls.social-icons {
+    position: static !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+    z-index: auto !important;
+    margin: 0.6em 0 0 0 !important;
+    padding: 0 !important;
+}
+
+.author__urls.social-icons:before,
+.author__urls.social-icons:after {
+    display: none !important;
 }
