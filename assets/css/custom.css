@@ -430,32 +430,32 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
     color: #1a1a1a;
 }
 
-/* Links: normal weight, underlined (bold stays reserved for **emphasis**) */
-.page__content a,
-.page__content a:visited,
-.archive a,
-.archive a:visited {
-    font-weight: 400 !important;
-    color: #1a1a1a !important;
-    text-decoration: underline !important;
-    text-decoration-thickness: 1px !important;
-    text-underline-offset: 3px;
-    text-decoration-color: #9a9fa4 !important;
-}
-
-.page__content a:hover,
-.archive a:hover {
-    text-decoration-color: #1a1a1a !important;
-}
-
-/* Links inside **bold** stay bold (and underlined) */
-.page__content strong a,
-.page__content b a,
-.archive strong a {
-    font-weight: 700 !important;
-}
-
 /* Always show "Stanford University" in the sidebar (theme hid it under 1024px) */
 .sidebar .author__desktop {
     display: block !important;
+}
+
+/* Content links: same dark text as headings, normal weight, underline only on hover */
+.page__content a,
+.page__content a:visited,
+.archive a,
+.archive a:visited,
+.archive__item a {
+    color: #1a1a1a !important;
+    font-weight: 400 !important;
+    text-decoration: none !important;
+}
+
+.page__content a:hover,
+.page__content a:active,
+.page__content a:focus,
+.archive a:hover,
+.archive a:active,
+.archive a:focus,
+.archive__item a:hover {
+    color: #1a1a1a !important;
+    font-weight: 400 !important;
+    text-decoration: underline !important;
+    text-decoration-thickness: 1px !important;
+    text-underline-offset: 3px;
 }
