@@ -435,14 +435,14 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
     display: block !important;
 }
 
-/* Content links: Stanford cardinal, normal weight, underline only on hover */
+/* Content links: black, medium (light bold) weight, underline only on hover */
 .page__content a,
 .page__content a:visited,
 .archive a,
 .archive a:visited,
 .archive__item a {
-    color: #8c1515 !important;
-    font-weight: 400 !important;
+    color: #000 !important;
+    font-weight: 500 !important;
     text-decoration: none !important;
 }
 
@@ -453,9 +453,34 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
 .archive a:active,
 .archive a:focus,
 .archive__item a:hover {
-    color: #8c1515 !important;
-    font-weight: 400 !important;
+    color: #000 !important;
+    font-weight: 500 !important;
     text-decoration: underline !important;
     text-decoration-thickness: 1px !important;
     text-underline-offset: 3px;
+}
+
+/* Softer bold so it sits alongside cardinal links: medium weight, near-black ink */
+.page__content strong,
+.page__content b,
+.archive strong,
+.archive b {
+    font-weight: 600 !important;
+    color: #2e2e2e !important;
+}
+
+/* Sidebar items use the site font too (theme set them to the system font) */
+.author__urls li,
+.author__urls li a,
+.author__pronouns,
+.author__bio,
+.sidebar p,
+.sidebar li {
+    font-family: var(--site-font) !important;
+}
+
+/* Light bold (same weight as links), e.g. **Ph.D. student**{: .light-bold} */
+.page__content strong.light-bold {
+    font-weight: 500 !important;
+    color: #000 !important;
 }
