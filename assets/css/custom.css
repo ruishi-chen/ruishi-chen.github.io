@@ -435,13 +435,13 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
     display: block !important;
 }
 
-/* Content links: same dark text as headings, normal weight, underline only on hover */
+/* Content links: Stanford cardinal, normal weight, underline only on hover */
 .page__content a,
 .page__content a:visited,
 .archive a,
 .archive a:visited,
 .archive__item a {
-    color: #1a1a1a !important;
+    color: #8c1515 !important;
     font-weight: 400 !important;
     text-decoration: none !important;
 }
@@ -453,7 +453,7 @@ html, body, .masthead, .greedy-nav, .sidebar, .author__name, .author__urls,
 .archive a:active,
 .archive a:focus,
 .archive__item a:hover {
-    color: #1a1a1a !important;
+    color: #8c1515 !important;
     font-weight: 400 !important;
     text-decoration: underline !important;
     text-decoration-thickness: 1px !important;
